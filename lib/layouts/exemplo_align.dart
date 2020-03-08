@@ -9,7 +9,12 @@ class _ExemploAlignState extends State<ExemploAlign> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      body: Align(
+        alignment: Alignment.center,
+        child: FlutterLogo(
+          size: 100,
+        )
+      ),
     );
   }
 }
