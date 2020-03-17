@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'layouts/exemplo_center.dart';
-import 'layouts/exemplo_constrainedbox.dart';
+import 'layouts/exemplo_expanded.dart';
+import 'layouts/exemplo_padding.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ExemploConstrainedBox(),
+      home: ExemploPadding(),
     );
   }
 }
