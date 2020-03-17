@@ -1,6 +1,26 @@
-# exemplo_flutter
+# Exemplo de uso alguns Widgets Flutter
 
-A new Flutter project.
+Exemplos disponíveis:
+
+### Containers
+    - Container
+    - Scaffold
+
+### Layouts
+    - Aling
+    - AspectRatio
+    - Center
+    - Column
+    - ConstrainedBox
+    - Exapnded
+    - Flow
+    - GridView
+    - ListView
+    - Padding
+    - Row
+    - Stack
+    - Transform
+    
 
 ## Getting Started
 

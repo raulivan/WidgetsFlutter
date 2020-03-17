@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'layouts/exemplo_listview.dart';
 import 'layouts/exemplo_stack.dart';
 
 void main() => runApp(MyApp());
