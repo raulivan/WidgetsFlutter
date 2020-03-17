@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'layouts/exemplo_expanded.dart';
-import 'layouts/exemplo_padding.dart';
+import 'layouts/exemplo_listview.dart';
+import 'layouts/exemplo_stack.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ExemploPadding(),
+      home: ExemploStack(),
     );
   }
 }
