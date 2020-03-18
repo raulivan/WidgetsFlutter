@@ -17,8 +17,9 @@ class _ExemploEntradaDadosState extends State<ExemploEntradaDados> {
           children: <Widget>[Icon(Icons.android), Text('Entrada')],
         ),
       ),
-      floatingActionButton:
-          FloatingActionButton(child: Icon(Icons.all_out), onPressed: () {
+      floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.all_out),
+          onPressed: () {
             setState(() {
               texto_digitado = controller.text;
             });
@@ -38,8 +39,7 @@ class _ExemploEntradaDadosState extends State<ExemploEntradaDados> {
                 ),
                 style: TextStyle(fontSize: 30)),
             Text('O valor digitado foi: $texto_digitado',
-            style: TextStyle(fontSize: 20,
-            color:  Colors.red))
+                style: TextStyle(fontSize: 20, color: Colors.red))
           ],
         ),
       ),
