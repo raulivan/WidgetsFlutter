@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'formularios/exemplo_controles_simples.dart';
-import 'layouts/exemplo_stack.dart';
+import 'formularios/exemplo_entrada_dados.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ExemploControlesSimples(),
+      home: ExemploEntradaDados(),
     );
   }
 }

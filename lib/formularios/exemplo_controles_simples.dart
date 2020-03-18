@@ -10,13 +10,8 @@ class ExemploControlesSimples extends StatefulWidget {
 class _ExemploControlesSimplesState extends State<ExemploControlesSimples> {
   String _valorSelecionadoDrop;
   String _grupoSexo;
-  bool _segunda = false,
-      _terca = false,
-      _quarta = false,
-      _quinta = false,
-      _sexta = false,
-      _sabado = false,
-      _domingo = false;
+  bool _segunda = false, _terca = false, _quarta = false, _quinta = false,
+      _sexta = false, _sabado = false, _domingo = false;
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +25,7 @@ class _ExemploControlesSimplesState extends State<ExemploControlesSimples> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
+
                 //Caixa de TExto
                 TextField(
                     decoration: InputDecoration(
@@ -218,8 +214,6 @@ class _ExemploControlesSimplesState extends State<ExemploControlesSimples> {
                   image: NetworkImage(
                       'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
                 )
-
-                //Data e Hora
               ],
             )),
       ),
